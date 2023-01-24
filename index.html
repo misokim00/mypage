@@ -12,7 +12,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    <title>스파르타코딩클럽 | 영화 페이지 만들기</title>
+    <title>스파르타코딩클럽 | 뮤지컬 후기</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
@@ -82,17 +82,25 @@
             margin-right: 20px;
         }
     </style>
+    <script>
+        let a = [
+                {'name':'민수','age':'23'},
+                {'name':'민지','age':'19'},
+                {'name':'민주','age':'20'}]
+
+        console.log(a[1]['age'])
+    </script>
 </head>
 
 <body>
     <div class="mytitle">
-        <h1>내 생애 최고의 영화들:)</h1>
-        <button>영화 기록하기</button>
+        <h1>내 생애 최고의 공연들:)</h1>
+        <button onclick="hey()">공연 기록하기</button>
     </div>
     <div class="mypost">
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">영화 URL</label>
+            <label for="floatingInput">공연 URL</label>
 
           </div>
           <div class="input-group mb-3">
@@ -121,49 +129,53 @@
         <div class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="https://cdn-magazine.notefolio.net/files/18/17718-6044-43_cont"
+                    <img src="https://ticketimage.interpark.com/Play/image/large/22/22009226_p.gif"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">라라랜드</h5>
-                        <p class="card-text">"이 영화는 마법이다"</p>
+                        <h5 class="card-title">마틸다</h5>
+                        <p class="card-text">세상을 바꿀 위대한 소녀가 온다</p>
                         <p>⭐⭐⭐⭐</p>
-                        <p class="mycomment">영상과 음악이 아름다운 영화</p>
+                        <p class="mycomment">A Real Miracle!   -Time Magazine-</p>
+                        <p> Time Magazine</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="https://www.hangeul.go.kr/webzine/202103/img/sub/sub3_1_img5.png"
+                    <img src="https://ticketimage.interpark.com/Play/image/large/22/22013053_p.gif"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">부산행</h5>
-                        <p class="card-text">끝까지 살아남아라</p>
+                        <h5 class="card-title">여신님이 보고 계셔</h5>
+                        <p class="card-text">언제나 우리를 비추는 눈부신 그녀만 믿으면 돼.</p>
                         <p>⭐⭐⭐⭐</p>
-                        <p class="mycomment">한국 좀비물의 신화</p>
+                        <p class="mycomment">진정성 있는 연기와 함께 마음을 따뜻하게 하는 음악.</p>
+                        <p> 뉴스컬쳐</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201602/19/htm_20160219165732323457.jpg"
+                    <img src="https://ticketimage.interpark.com/Play/image/large/22/22013271_p.gif"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">검은 사제들</h5>
-                        <p class="card-text">가장 위험한 곳으로 갈 준비가 되었습니다</p>
+                        <h5 class="card-title">스위니토드</h5>
+                        <p class="card-text">어느 잔혹한 이발사 이야기</p>
                         <p>⭐⭐⭐⭐⭐</p>
-                        <p class="mycomment">강동원이 잘생김</p>
+                        <p class="mycomment">섬뜩하고 잔인하게 독창적이다.</p>
+                            <p> New York Times</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="https://img1.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202105/25/caster/20210525103203892muaf.png"
+                    <img src="https://ticketimage.interpark.com/Play/image/large/22/22012033_p.gif"
                         class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">기생충</h5>
-                        <p class="card-text">행복은 나눌수록 커지잖아요</p>
+                        <h5 class="card-title">지저스 크라이스트 슈퍼스타</h5>
+                        <p class="card-text">"올해 최고의 사건 [지저스] 그의 생애 마지막 7일간의 이야기"</p>
                         <p>⭐⭐⭐</p>
-                        <p class="mycomment">기분이 이상하게 불쾌한 영화</p>
+                        <p class="mycomment">아름답고 황홀한, 천상의 뮤지컬</p>
+                        <p>The Guardian</p>
                     </div>
                 </div>
             </div>
